@@ -1,21 +1,18 @@
-﻿ASP.NET CORE Tutorial
+## Tutorial Link
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio
 
-Goes through creating a model, a Context, and then linking those up to an Entity Framework API Controller
+## Objective
+Create a simple ASP.NET Core web api with an InMemoryDatabase to back it
 
-Goes over basic CRUD operations included standard HTTP return types
+## Rating
+⭐⭐
 
-Uses Postman to interact with the API (disable ssl certificate validation. Don't forget to reenable it when you're done!):
+If you're not at all familiar with ASP.NET it can be a helpful place to start, this is basically more of an overview rather than an actual in depth tutorial. Took me about an hour to get through.
 
-Once you have the API running, open up postman and make a GET request against the https://localhost:44375/api/TodoItems endpoint to see all of the TodoItems in the InMemory database.
-Use an HTTP Post with the json body
-```json
-{
-    "name": "walk dog",
-    "isComplete": true
-}
-```
-to create a TodoItem.
+## Difficulty
+Beginner. Very little manual coding done. This is pretty much just using the default Visual Studio ASP.NET Core project template and adding a few new classes into it. Good to get a feel for how the context interacts with the API Controller.
 
-ASP.NET CORE will add a `Location` header to any successful (201) POST requests. Check the response headers for the `Location` header. 
-There should be a url like https://localhost:44375/api/TodoItems/1. If you make an HTTP GET request against that url, it will return this specific entity you just created.
+## Points of Interest
+* Goes over basic CRUD operations included standard HTTP return types
+* Uses Postman to interact with the API
+* Touches on Entity Framework and linking entities to CRUD operations
