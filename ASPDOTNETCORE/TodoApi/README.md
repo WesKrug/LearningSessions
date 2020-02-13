@@ -6,6 +6,7 @@ Create a simple ASP.NET Core web api with an InMemoryDatabase to back it
 
 ## Rating
 ⭐⭐
+
 If you're not at all familiar with ASP.NET it can be a helpful place to start, this is basically more of an overview rather than an actual in depth tutorial. Took me about an hour to get through.
 
 ## Difficulty
