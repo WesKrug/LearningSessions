@@ -12,4 +12,5 @@ Goes through creating models, generating a RazorWeb page via a Visual Studio's s
 ## Points of Interest
 * Goes through RazorPages, which is essentially Angular but with C#. Writing C# code and integrates directly with HTML
 * Create a website which reads entries from a database and allows the user to create/delete/edit/view those entries
-* Creates migrations after model changes for code-first generation
+* Create migrations after model changes for code-first generation
+* Talks about good coding practices such as writing code in one place and having it apply everywhere (and how RazorPages applies that ideology)
