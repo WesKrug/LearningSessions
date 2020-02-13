@@ -7,7 +7,7 @@ Create a RazorPages website to Create, Edit, Delete, and View Details on a list 
 ## Rating
 ⭐⭐⭐⭐
 
-Goes through creating models, generating a RazorWeb page via a Visual Studio's scaffolded items, and goes in depth into exactly what was generated and how the files interact with one another. 
+Goes through creating models, generating a RazorWeb page via a Visual Studio's scaffolded items, and goes in depth into exactly what was generated and how the files interact with one another. Overall pretty simple but helpful.
 
 ## Points of Interest
 * Goes through RazorPages, which is essentially Angular but with C#. Writing C# code and integrates directly with HTML
